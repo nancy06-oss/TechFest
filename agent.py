@@ -1,4 +1,3 @@
-cat > ~/adk-workspace/coding_bot/agent.py << 'EOF'
 from google.adk.agents import Agent
 
 root_agent = Agent(
@@ -14,4 +13,4 @@ root_agent = Agent(
     - Solving programming challenges step by step
     Always explain your solution clearly and provide working code examples.""",
 )
-EOF
+
